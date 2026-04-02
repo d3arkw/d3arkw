@@ -18,11 +18,6 @@ jobs:
           github_user_name: d3arkw
           outputs: github-contribution-grid-snake.svg
 
-      # Копируем змейку в корень репо, чтобы можно было вставить в README
-      - name: Move Snake to root
-        run: |
-          mv github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
-
       # Добавляем и пушим змейку в репо
       - name: Commit Snake
         run: |
