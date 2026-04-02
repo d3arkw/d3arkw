@@ -2,29 +2,26 @@ name: Generate Snake
 
 on:
   workflow_dispatch:
+  schedule:
+    # необязательно, можно запускать раз в день
+    - cron: "0 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Клонируем репо
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      # Генерация змейки
-      - uses: Platane/snk@v3
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
         with:
-          github_user_name: d3arkw
+          github_user_name: ${{ github.repository_owner }}
           outputs: github-contribution-grid-snake.svg
 
-      # Пушим только если есть изменения
-      - name: Commit and push Snake
-        run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add github-contribution-grid-snake.svg
-          # Только если есть изменения, коммитим
-          git diff --cached --quiet || git commit -m "Update snake"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload snake artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake
+          path: github-contribution-grid-snake.svg
