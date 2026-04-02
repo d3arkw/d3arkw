@@ -1,6 +1,5 @@
 name: Generate Snake
 
-# Запуск вручную через GitHub Actions
 on:
   workflow_dispatch:
 
@@ -9,22 +8,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Сначала клонируем репозиторий
+      # Клонируем репо
       - uses: actions/checkout@v3
 
-      # Генерация змейки с помощью готового action
+      # Генерация змейки
       - uses: Platane/snk@v3
         with:
           github_user_name: d3arkw
           outputs: github-contribution-grid-snake.svg
 
-      # Добавляем и пушим змейку в репо
-      - name: Commit Snake
+      # Пушим только если есть изменения
+      - name: Commit and push Snake
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add github-contribution-grid-snake.svg
-          git commit -m "Update snake"
+          # Только если есть изменения, коммитим
+          git diff --cached --quiet || git commit -m "Update snake"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
