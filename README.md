@@ -1,63 +1,176 @@
 # Hi, I'm d3arkw 💻
 
-I'm a **Python backend developer**, passionate about building robust applications, designing relational databases, and creating clean REST APIs.  
-Focused on **continuous learning, writing clean code, and applying OOP principles** in real-world projects.
+I'm a **Python Backend Developer** focused on building REST APIs, designing relational databases, and developing scalable backend systems.
+
+I enjoy creating clean architecture, working with modern backend technologies, and improving my skills through real-world projects.
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠 Tech Stack & Skills
 
-⚡ **Backend & Frameworks:** ![Python](https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python)
+⚡️ **Backend & Frameworks:**
+
+![Python](https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-333333?style=for-the-badge&logo=fastapi&logoColor=009688)
 
-🗄️ **Data Storage:** ![SQLite](https://img.shields.io/badge/-SQLite-333333?style=for-the-badge&logo=sqlite&logoColor=003B57)
-![JSON](https://img.shields.io/badge/-JSON-333333?style=for-the-badge&logo=json)
+🗄 **Databases & ORM:**
 
-🔧 **Tools & Architecture:** ![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)
-* **Core Concepts:** Object-Oriented Programming (OOP), REST API Design, Data Validation (Pydantic), Custom Decorators, Database Constraints.
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=for-the-badge&logo=postgresql)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-333333?style=for-the-badge&logo=python)
+![Alembic](https://img.shields.io/badge/-Alembic-333333?style=for-the-badge&logo=alembic)
 
----
+🔐 **Security & Validation:**
 
-## 🚀 Featured Projects
+![JWT](https://img.shields.io/badge/-JWT-333333?style=for-the-badge&logo=jsonwebtokens)
+![Pydantic](https://img.shields.io/badge/-Pydantic-333333?style=for-the-badge&logo=python)
 
-### 1. 🔐 Password Manager API
-**Description:** A backend REST API for managing user credentials with automated validation rules.  
-* **Tech Stack:** FastAPI, Pydantic, UUIDv4.
-* **Key Features:** Full CRUD operations (`GET`, `POST`, `PATCH`, `DELETE`), input validation (minimum password length restriction), and automated interactive documentation via Swagger UI.
+🔧 **Tools & Development:**
 
-### 📅 2. Habit Tracker
-**Description:** A complete console application to track daily habits, manage streaks, and analyze consistency.  
-* **Tech Stack:** Python, SQLite.
-* **Key Features:** Relational database storage with `ON DELETE CASCADE` constraints, multi-language configuration (RU/EN), streak protection system, and a standalone database reset tool.
+![Docker](https://img.shields.io/badge/-Docker-333333?style=for-the-badge&logo=docker)
+![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)
 
-### 💻 3. Terminal Notes & Command Manager
-**Description:** An interactive terminal-based manager for notes and commands with local storage capabilities.  
-* **Tech Stack:** Python, JSON.
-* **Key Features:** Implemented **custom decorators** for command history logging, clean command dispatching via dictionary mapping, and automatic incremental file backups.
-
-### 💰 4. Finance Tracker
-**Description:** A lightweight console utility designed to monitor personal income and expenses.  
-* **Tech Stack:** Python.
-* **Key Features:** Detailed transaction history logs, currency and language switching mechanisms, and an intuitive user interface.
+**Core Concepts:**
+- REST API Design
+- Object-Oriented Programming
+- Database Design
+- ORM
+- Data Validation
+- Authentication & Authorization
+- Database Migrations
+- Clean Code Principles
 
 ---
 
-## 📈 Currently Improving
+# 🚀 Featured Projects
 
-• Advanced **SQL & Relational Databases** (joins, indexing, schema optimization).  
-• Mastering **Asynchronous Python (asyncio)** and advanced features of **FastAPI**.  
-• Studying **Software Architecture** patterns and **SOLID** design principles.  
+## 🏋️ FitnessTracker API
+
+**Description:**  
+A backend REST API for managing workouts, exercises, and fitness progress.
+
+Built with a modular architecture using FastAPI, PostgreSQL, SQLAlchemy 2.0 and Alembic.
+
+### Features:
+
+✅ User registration and authentication  
+✅ JWT-based authentication  
+✅ Secure password hashing with bcrypt  
+✅ User profile endpoint (`GET /users/me`)  
+✅ Exercise management (CRUD)  
+✅ Workout management (CRUD)  
+✅ Workout sets tracking  
+✅ Workout statistics  
+✅ Database migrations with Alembic  
+✅ Interactive API documentation with Swagger UI  
+✅ Containerized development environment with Docker Compose
+
+### Tech Stack:
+
+**Python • FastAPI • PostgreSQL • SQLAlchemy 2.0 • Alembic • Docker Compose**
 
 ---
 
-### 📊 Performance Metrics
+## 🔐 Password Manager API
+
+**Description:**  
+A backend REST API for managing user credentials with validation and structured data handling.
+
+### Features:
+
+- Full CRUD operations
+- Data validation with Pydantic
+- UUID-based identification
+- Interactive Swagger documentation
+
+**Tech Stack:**
+Python • FastAPI • Pydantic
+
+---
+
+## 📅 Habit Tracker
+
+**Description:**  
+A console application designed to track daily habits, streaks, and user consistency.
+
+### Features:
+
+- SQLite database integration
+- Relational data management
+- `ON DELETE CASCADE` constraints
+- Multi-language support (RU/EN)
+- Database reset functionality
+
+**Tech Stack:**
+Python • SQLite
+
+---
+
+## 💻 Terminal Notes & Command Manager
+
+**Description:**  
+A terminal application for managing notes and frequently used commands.
+
+### Features:
+
+- Custom decorators
+- Command history logging
+- Dictionary-based command routing
+- Automatic backups
+
+**Tech Stack:**
+Python • JSON
+
+---
+
+## 💰 Finance Tracker
+
+**Description:**  
+A lightweight CLI application for tracking income and expenses.
+
+### Features:
+
+- Transaction history
+- Currency support
+- Language switching
+- Local data storage
+
+**Tech Stack:**
+Python • JSON
+
+---
+
+# 📈 Currently Improving
+
+• Advanced FastAPI development  
+• Automated testing with Pytest  
+• Async Python programming  
+• Advanced SQL optimization and database design  
+• Backend architecture and scalable systems  
+
+---
+
+# 📚 Future Learning Goals
+
+• Redis  
+• Apache Kafka  
+• Message brokers  
+• Distributed systems  
+• System Design  
+
+---
+
+### 📊 GitHub Metrics
+
 ![d3arkw's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3arkw&show_icons=true&theme=dark)
+
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=d3arkw&theme=dark)
 
 ---
 
 ## ✉️ Contact Me
 
-[![Email](https://img.shields.io/badge/Email-d3arkw%40mail.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@icloud.com)  
-[![Telegram](https://img.shields.io/badge/Telegram-@d3arkw-333333?style=for-the-badge&logo=telegram)](https://t.me/d3arkw)  
+[![Email](https://img.shields.io/badge/Email-d3arkw%40mail.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@icloud.com)
+
+[![Telegram](https://img.shields.io/badge/Telegram-@d3arkw-333333?style=for-the-badge&logo=telegram)](https://t.me/d3arkw)
+
 [![VK](https://img.shields.io/badge/VK-d3arkw-333333?style=for-the-badge&logo=vk)](https://vk.ru/d3arkw)
