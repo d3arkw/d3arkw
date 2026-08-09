@@ -1,10 +1,10 @@
-# Hi, I'm d3arkw 👋 
+# Hi, I'm d3arkw 👋
 
-I'm a **Python Backend Developer** focused on building REST APIs, backend architecture and database-driven applications.
+**Python Backend Developer** specializing in building REST APIs, database-driven applications and backend architecture.
 
-I specialize in **FastAPI development**, asynchronous Python, SQL databases, authentication systems, automated testing, and containerized applications.
+I focus on **FastAPI**, asynchronous Python, SQL and PostgreSQL. I care about clean architecture, maintainable code and production-minded engineering — automated testing, containerization and CI.
 
-I enjoy designing clean backend architecture, writing maintainable code, and continuously improving my engineering skills through real-world projects.
+Open to **internship and Junior Python Backend** opportunities.
 
 ---
 
@@ -20,6 +20,7 @@ I enjoy designing clean backend architecture, writing maintainable code, and con
 ## Databases
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=for-the-badge&logo=postgresql)
+![SQLite](https://img.shields.io/badge/-SQLite-333333?style=for-the-badge&logo=sqlite)
 ![Alembic](https://img.shields.io/badge/-Alembic-333333?style=for-the-badge)
 
 ## Testing & DevOps
@@ -35,142 +36,78 @@ I enjoy designing clean backend architecture, writing maintainable code, and con
 
 ---
 
-# 💡  Core Skills
+# 🚀 Featured Projects
 
-- Python Backend Development
-- REST API Design
-- FastAPI Architecture
-- Async Python Programming
-- SQL & Relational Database Design
-- ORM with SQLAlchemy
-- Database Migrations with Alembic
-- Authentication & Authorization
-- JWT Security
-- Automated Testing with Pytest
-- Docker Containerization
-- CI Automation with GitHub Actions
-- Clean Code & Project Structure
+## 🏋️ Fitness Tracker API
 
----
+Production-style REST API for fitness tracking: **FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, JWT, Pytest, Docker, GitHub Actions CI**.
 
-# 🚀  Featured Project
+[![CI](https://github.com/d3arkw/FitnessTracker/actions/workflows/ci.yml/badge.svg)](https://github.com/d3arkw/FitnessTracker/actions/workflows/ci.yml)
 
-## 🏋️  FitnessTracker API
+- JWT authentication with bcrypt password hashing
+- Exercise & workout CRUD, workout sets and history
+- Progress statistics
+- Layered architecture (routers → services → schemas → models)
+- Async SQLAlchemy 2.0 + Alembic migrations
+- Automated service-layer tests (Pytest) running in CI
 
-**Production-style REST API for fitness tracking built with modern backend technologies.**
+🔗 [github.com/d3arkw/FitnessTracker](https://github.com/d3arkw/FitnessTracker)
 
-🔗  Repository:
-https://github.com/d3arkw/FitnessTracker
+## 🛍️ Microservice Market Study
 
+Educational microservices project: three independent services — **catalog, order, payment** — each with its own database (database-per-service).
 
-### Features:
+- FastAPI + async SQLAlchemy 2.0 + PostgreSQL + Docker Compose
+- Service-to-service communication via async HTTPX client
+- Payment service with statuses, webhook planned
+- RabbitMQ / event-driven integration in progress
 
-✅ User registration and authentication  
-✅ JWT-based authentication  
-✅ Secure password hashing with bcrypt  
-✅ User profile endpoint  
-✅ Exercise CRUD operations  
-✅ Workout CRUD operations  
-✅ Workout sets tracking  
-✅ Workout history  
-✅ Progress statistics  
-✅ PostgreSQL database integration  
-✅ Alembic migrations  
-✅ Async SQLAlchemy 2.0  
-✅ Pydantic validation  
-✅ Pytest automated testing  
-✅ Docker Compose environment  
-✅ GitHub Actions CI pipeline  
-
-
-### Architecture:
-
-- Layered architecture:
-  - Routers
-  - Services
-  - Schemas
-  - Models
-
-- Separation of business logic and API layer
-- Async database operations
-- Automated testing environment
-
-
-### Tech Stack:
-
-**Python • FastAPI • PostgreSQL • SQLAlchemy 2.0 • Alembic • Pytest • Docker • GitHub Actions**
+🔗 [github.com/d3arkw/market-microservise-study](https://github.com/d3arkw/market-microservise-study)
 
 ---
 
-# 📌  Other Projects
+# 📌 Other Projects
 
-## 🔐  Password Manager API
+## 🔐 Password Manager API
+Lightweight FastAPI REST API with full CRUD, Pydantic validation (min 8 chars), UUIDv4 IDs and auto-generated Swagger/ReDoc docs.
+`FastAPI · Pydantic · Uvicorn`
 
-Backend REST API for managing credentials.
+## 🔎 Live Workspace
+Developer workspace for monitoring, testing and debugging microservice-based systems. Built with a microservice-first approach: gateway + discovery services communicating over HTTP.
+`FastAPI · Microservices · Docker Compose`
 
-Features:
-- CRUD operations
-- Pydantic validation
-- UUID identification
-- Swagger documentation
+## 📈 Habit Tracker
+Console habit tracker with SQLite storage: streaks, daily completion logs, cascade deletion, English/Russian support.
+`Python · SQLite`
 
-**Tech Stack:**
-Python • FastAPI • Pydantic
+## 💰 Finance Tracker CLI
+Console app for personal finance: income/expenses by category, multi-currency (RUB/USD/CNY), transaction history, bilingual UI.
+`Python · JSON`
 
-
-## 📅  Habit Tracker
-
-Console application for tracking habits and progress.
-
-Features:
-- SQLite database
-- Relational data management
-- Cascade deletion
-- Multi-language support
-
-**Tech Stack:**
-Python • SQLite
-
-
-## 💰 Finance Tracker
-
-CLI application for managing income and expenses.
-
-Features:
-- Transaction management
-- Local data storage
-- Language support
-
-**Tech Stack:**
-Python • JSON
+## 💻 Simple Terminal
+Terminal notes & command manager with JSON storage: notes CRUD, search, history, auto-backup.
+`Python · JSON`
 
 ---
 
-# 📈  Currently Improving
+# 🎯 Currently Working On
 
-- Advanced FastAPI development
-- Database optimization
-- Advanced SQL queries
-- Backend scalability concepts
-- System Design fundamentals
+- Microservices architecture and event-driven design
+- RabbitMQ (aio-pika) integration
+- System design fundamentals
 
----
-
-# 📚 Future Learning
+# 📚 Learning Next
 
 - Redis
-- RabbitMQ
 - Apache Kafka
-- Microservice architecture
-- Distributed systems
-- Kubernetes basics
+- Kubernetes
 - Cloud services (AWS/Azure)
 
 ---
 
-# 📊  GitHub Stats
-![d3arkw's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3arkw&show_icons=true&theme=dark)
+# 📊 GitHub Stats
 
+![d3arkw's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3arkw&show_icons=true&theme=dark)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=d3arkw&theme=dark)
 
 ---
@@ -178,5 +115,4 @@ Python • JSON
 # 📫 Contact
 
 [![Telegram](https://img.shields.io/badge/Telegram-@d3arkw-333333?style=for-the-badge&logo=telegram)](https://t.me/d3arkw)
-
-[![Email](https://img.shields.io/badge/Email-d3arkw%40mail.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@mail.com)
+[![Email](https://img.shields.io/badge/Email-d3arkw%40icloud.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@icloud.com)
