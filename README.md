@@ -1,10 +1,10 @@
-# Hi, I'm d3arkw 👋
+# Hi, I'm d3arkw 👋 
 
-**Python Backend Developer** specializing in building REST APIs, database-driven applications and backend architecture.
+I'm a **Python Backend Developer** focused on building REST APIs, backend architecture and database-driven applications.
 
-I focus on **FastAPI**, asynchronous Python, SQL and PostgreSQL. I care about clean architecture, maintainable code and production-minded engineering — automated testing, containerization and CI.
+I specialize in **FastAPI development**, asynchronous Python, SQL databases, authentication systems, automated testing, and containerized applications.
 
-Open to **internship and Junior Python Backend** opportunities.
+I enjoy designing clean backend architecture, writing maintainable code, and continuously improving my engineering skills through real-world projects.
 
 ---
 
@@ -20,7 +20,6 @@ Open to **internship and Junior Python Backend** opportunities.
 ## Databases
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=for-the-badge&logo=postgresql)
-![SQLite](https://img.shields.io/badge/-SQLite-333333?style=for-the-badge&logo=sqlite)
 ![Alembic](https://img.shields.io/badge/-Alembic-333333?style=for-the-badge)
 
 ## Testing & DevOps
@@ -36,78 +35,142 @@ Open to **internship and Junior Python Backend** opportunities.
 
 ---
 
-# 🚀 Featured Projects
+# 💡  Core Skills
 
-## 🏋️ Fitness Tracker API
-
-Production-style REST API for fitness tracking: **FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, JWT, Pytest, Docker, GitHub Actions CI**.
-
-[![CI](https://github.com/d3arkw/FitnessTracker/actions/workflows/ci.yml/badge.svg)](https://github.com/d3arkw/FitnessTracker/actions/workflows/ci.yml)
-
-- JWT authentication with bcrypt password hashing
-- Exercise & workout CRUD, workout sets and history
-- Progress statistics
-- Layered architecture (routers → services → schemas → models)
-- Async SQLAlchemy 2.0 + Alembic migrations
-- Automated service-layer tests (Pytest) running in CI
-
-🔗 [github.com/d3arkw/FitnessTracker](https://github.com/d3arkw/FitnessTracker)
-
-## 🛍️ Microservice Market Study
-
-Educational microservices project: three independent services — **catalog, order, payment** — each with its own database (database-per-service).
-
-- FastAPI + async SQLAlchemy 2.0 + PostgreSQL + Docker Compose
-- Service-to-service communication via async HTTPX client
-- Payment service with statuses, webhook planned
-- RabbitMQ / event-driven integration in progress
-
-🔗 [github.com/d3arkw/market-microservise-study](https://github.com/d3arkw/market-microservise-study)
+- Python Backend Development
+- REST API Design
+- FastAPI Architecture
+- Async Python Programming
+- SQL & Relational Database Design
+- ORM with SQLAlchemy
+- Database Migrations with Alembic
+- Authentication & Authorization
+- JWT Security
+- Automated Testing with Pytest
+- Docker Containerization
+- CI Automation with GitHub Actions
+- Clean Code & Project Structure
 
 ---
 
-# 📌 Other Projects
+# 🚀  Featured Project
 
-## 🔐 Password Manager API
-Lightweight FastAPI REST API with full CRUD, Pydantic validation (min 8 chars), UUIDv4 IDs and auto-generated Swagger/ReDoc docs.
-`FastAPI · Pydantic · Uvicorn`
+## 🏋️  FitnessTracker API
 
-## 🔎 Live Workspace
-Developer workspace for monitoring, testing and debugging microservice-based systems. Built with a microservice-first approach: gateway + discovery services communicating over HTTP.
-`FastAPI · Microservices · Docker Compose`
+**Production-style REST API for fitness tracking built with modern backend technologies.**
 
-## 📈 Habit Tracker
-Console habit tracker with SQLite storage: streaks, daily completion logs, cascade deletion, English/Russian support.
-`Python · SQLite`
+🔗  Repository:
+https://github.com/d3arkw/FitnessTracker
 
-## 💰 Finance Tracker CLI
-Console app for personal finance: income/expenses by category, multi-currency (RUB/USD/CNY), transaction history, bilingual UI.
-`Python · JSON`
 
-## 💻 Simple Terminal
-Terminal notes & command manager with JSON storage: notes CRUD, search, history, auto-backup.
-`Python · JSON`
+### Features:
+
+✅ User registration and authentication  
+✅ JWT-based authentication  
+✅ Secure password hashing with bcrypt  
+✅ User profile endpoint  
+✅ Exercise CRUD operations  
+✅ Workout CRUD operations  
+✅ Workout sets tracking  
+✅ Workout history  
+✅ Progress statistics  
+✅ PostgreSQL database integration  
+✅ Alembic migrations  
+✅ Async SQLAlchemy 2.0  
+✅ Pydantic validation  
+✅ Pytest automated testing  
+✅ Docker Compose environment  
+✅ GitHub Actions CI pipeline  
+
+
+### Architecture:
+
+- Layered architecture:
+  - Routers
+  - Services
+  - Schemas
+  - Models
+
+- Separation of business logic and API layer
+- Async database operations
+- Automated testing environment
+
+
+### Tech Stack:
+
+**Python • FastAPI • PostgreSQL • SQLAlchemy 2.0 • Alembic • Pytest • Docker • GitHub Actions**
 
 ---
 
-# 🎯 Currently Working On
+# 📌  Other Projects
 
-- Microservices architecture and event-driven design
-- RabbitMQ (aio-pika) integration
-- System design fundamentals
+## 🔐  Password Manager API
 
-# 📚 Learning Next
+Backend REST API for managing credentials.
+
+Features:
+- CRUD operations
+- Pydantic validation
+- UUID identification
+- Swagger documentation
+
+**Tech Stack:**
+Python • FastAPI • Pydantic
+
+
+## 📅  Habit Tracker
+
+Console application for tracking habits and progress.
+
+Features:
+- SQLite database
+- Relational data management
+- Cascade deletion
+- Multi-language support
+
+**Tech Stack:**
+Python • SQLite
+
+
+## 💰 Finance Tracker
+
+CLI application for managing income and expenses.
+
+Features:
+- Transaction management
+- Local data storage
+- Language support
+
+**Tech Stack:**
+Python • JSON
+
+---
+
+# 📈  Currently Improving
+
+- Advanced FastAPI development
+- Database optimization
+- Advanced SQL queries
+- Backend scalability concepts
+- System Design fundamentals
+
+---
+
+# 📚 Future Learning
 
 - Redis
+- RabbitMQ
 - Apache Kafka
-- Kubernetes
+- Microservice architecture
+- Distributed systems
+- Kubernetes basics
 - Cloud services (AWS/Azure)
 
 ---
 
-# 📊 GitHub Stats
-
+# 📊  GitHub Stats
 ![d3arkw's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3arkw&show_icons=true&theme=dark)
+
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=d3arkw&theme=dark)
 
 ---
@@ -115,4 +178,5 @@ Terminal notes & command manager with JSON storage: notes CRUD, search, history,
 # 📫 Contact
 
 [![Telegram](https://img.shields.io/badge/Telegram-@d3arkw-333333?style=for-the-badge&logo=telegram)](https://t.me/d3arkw)
-[![Email](https://img.shields.io/badge/Email-d3arkw%40icloud.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@icloud.com)
+
+[![Email](https://img.shields.io/badge/Email-d3arkw%40mail.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@mail.com)
