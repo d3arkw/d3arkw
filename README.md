@@ -1,182 +1,41 @@
-# Hi, I'm d3arkw 👋 
+# Hi, I'm Denis 👋
 
-I'm a **Python Backend Developer** focused on building REST APIs, backend architecture and database-driven applications.
+Python Backend Developer. College student, Information Systems and Programming.
 
-I specialize in **FastAPI development**, asynchronous Python, SQL databases, authentication systems, automated testing, and containerized applications.
+I build REST APIs and backend services with Python and FastAPI. I like async Python, working with PostgreSQL and SQLAlchemy, and writing code that has tests, runs in Docker, and passes CI — not just works on my machine.
 
-I enjoy designing clean backend architecture, writing maintainable code, and continuously improving my engineering skills through real-world projects.
+Started with small CLI tools, moved to REST APIs, now getting into microservices: splitting systems into independent services, giving each one its own database, and connecting them with brokers like Kafka and Redis.
 
----
+Open to internship and Junior Python Backend positions.
 
-# 🛠 Tech Stack
+## Stack
 
-## Backend
+Python · FastAPI · SQLAlchemy 2.0 · Alembic · Pydantic · PostgreSQL · asyncpg · JWT · REST · Pytest · Docker · Docker Compose · Git · GitHub Actions
 
-![Python](https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/-FastAPI-333333?style=for-the-badge&logo=fastapi)
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-333333?style=for-the-badge&logo=python)
-![Pydantic](https://img.shields.io/badge/-Pydantic-333333?style=for-the-badge&logo=python)
+Learning: microservices, Kafka, Redis, RabbitMQ, CI/CD, Linux.
 
-## Databases
+## Projects
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=for-the-badge&logo=postgresql)
-![Alembic](https://img.shields.io/badge/-Alembic-333333?style=for-the-badge)
+🚀 **[Bildock](https://github.com/d3arkw/bildock)** — web workspace for backend developers.
+Monorepo: 6 microservices, database per service, shared library (config, database, security, exceptions), Alembic migrations, CI (ruff + pytest) on every pull request. Built as SaaS from the start.
 
-## Testing & DevOps
+🏋️ **[Fitness Tracker API](https://github.com/d3arkw/FitnessTracker)** — REST API for a fitness app.
+JWT authentication, password hashing (bcrypt), CRUD for exercises and workouts, progress statistics, async SQLAlchemy, Pytest, Docker Compose, GitHub Actions.
 
-![Pytest](https://img.shields.io/badge/-Pytest-333333?style=for-the-badge&logo=pytest)
-![Docker](https://img.shields.io/badge/-Docker-333333?style=for-the-badge&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-333333?style=for-the-badge&logo=githubactions)
-![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)
+📋 **[Tender Status Tracker](https://github.com/d3arkw/tender-status-tracker)** — tender status tracking service.
+Status lifecycle (draft → active → won/lost) with full change history, Redis caching, Docker Compose, CI.
 
-## Security
+🛒 **[Microservice Market Study](https://github.com/d3arkw/market-microservise-study)** — educational microservices project.
+Three services (catalog, order, payment), database-per-service, HTTP communication between services, RabbitMQ integration planned.
 
-![JWT](https://img.shields.io/badge/-JWT-333333?style=for-the-badge&logo=jsonwebtokens)
+More: [Password Manager](https://github.com/d3arkw/password_manager) · [Habit Tracker](https://github.com/d3arkw/habits-tracker) · [Finance CLI](https://github.com/d3arkw/finance-tracker-cli) · [Simple Terminal](https://github.com/d3arkw/simple-terminal)
 
----
+## Currently working on
 
-# 💡  Core Skills
+- Bildock: microservices, Kafka, Redis, event-driven architecture
+- Production patterns, CI/CD, Linux
 
-- Python Backend Development
-- REST API Design
-- FastAPI Architecture
-- Async Python Programming
-- SQL & Relational Database Design
-- ORM with SQLAlchemy
-- Database Migrations with Alembic
-- Authentication & Authorization
-- JWT Security
-- Automated Testing with Pytest
-- Docker Containerization
-- CI Automation with GitHub Actions
-- Clean Code & Project Structure
+## Contact
 
----
-
-# 🚀  Featured Project
-
-## 🏋️  FitnessTracker API
-
-**Production-style REST API for fitness tracking built with modern backend technologies.**
-
-🔗  Repository:
-https://github.com/d3arkw/FitnessTracker
-
-
-### Features:
-
-✅ User registration and authentication  
-✅ JWT-based authentication  
-✅ Secure password hashing with bcrypt  
-✅ User profile endpoint  
-✅ Exercise CRUD operations  
-✅ Workout CRUD operations  
-✅ Workout sets tracking  
-✅ Workout history  
-✅ Progress statistics  
-✅ PostgreSQL database integration  
-✅ Alembic migrations  
-✅ Async SQLAlchemy 2.0  
-✅ Pydantic validation  
-✅ Pytest automated testing  
-✅ Docker Compose environment  
-✅ GitHub Actions CI pipeline  
-
-
-### Architecture:
-
-- Layered architecture:
-  - Routers
-  - Services
-  - Schemas
-  - Models
-
-- Separation of business logic and API layer
-- Async database operations
-- Automated testing environment
-
-
-### Tech Stack:
-
-**Python • FastAPI • PostgreSQL • SQLAlchemy 2.0 • Alembic • Pytest • Docker • GitHub Actions**
-
----
-
-# 📌  Other Projects
-
-## 🔐  Password Manager API
-
-Backend REST API for managing credentials.
-
-Features:
-- CRUD operations
-- Pydantic validation
-- UUID identification
-- Swagger documentation
-
-**Tech Stack:**
-Python • FastAPI • Pydantic
-
-
-## 📅  Habit Tracker
-
-Console application for tracking habits and progress.
-
-Features:
-- SQLite database
-- Relational data management
-- Cascade deletion
-- Multi-language support
-
-**Tech Stack:**
-Python • SQLite
-
-
-## 💰 Finance Tracker
-
-CLI application for managing income and expenses.
-
-Features:
-- Transaction management
-- Local data storage
-- Language support
-
-**Tech Stack:**
-Python • JSON
-
----
-
-# 📈  Currently Improving
-
-- Advanced FastAPI development
-- Database optimization
-- Advanced SQL queries
-- Backend scalability concepts
-- System Design fundamentals
-
----
-
-# 📚 Future Learning
-
-- Redis
-- RabbitMQ
-- Apache Kafka
-- Microservice architecture
-- Distributed systems
-- Kubernetes basics
-- Cloud services (AWS/Azure)
-
----
-
-# 📊  GitHub Stats
-![d3arkw's GitHub stats](https://github-readme-stats.vercel.app/api?username=d3arkw&show_icons=true&theme=dark)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=d3arkw&theme=dark)
-
----
-
-# 📫 Contact
-
-[![Telegram](https://img.shields.io/badge/Telegram-@d3arkw-333333?style=for-the-badge&logo=telegram)](https://t.me/d3arkw)
-
-[![Email](https://img.shields.io/badge/Email-d3arkw%40mail.com-333333?style=for-the-badge&logo=gmail)](mailto:d3arkw@mail.com)
+- Telegram: [@d3arkw](https://t.me/d3arkw)
+- Email: [d3arkw@icloud.com](mailto:d3arkw@icloud.com)
