@@ -1,40 +1,37 @@
-# Hi, I'm Denis 👋
+# Hi, I'm Denis — Python Backend (FastAPI / PostgreSQL)
 
-Python Backend Developer (FastAPI) · 1+ year of commercial experience · Remote
+1+ year in production. I build production-style REST APIs: PostgreSQL + SQLAlchemy, tests, Docker, CI.
+Main project — SaaS Bildock, live in prod.
 
-I build production-style REST APIs and backend services: async Python, PostgreSQL + SQLAlchemy, tests, Docker, CI. My main project — a live SaaS called Bildock.
+## 🚀 Bildock — live SaaS for backend developers
 
-## 🚀 Bildock — live SaaS, my main project
+**Live: [bildock.ru](https://bildock.ru) | Showcase: [bildock-showcase](https://github.com/d3arkw/bildock-showcase)**
 
-**[bildock.ru](https://bildock.ru)** — web workspace for backend developers: connect a local project via CLI, browse it in a file-tree UI, watch service state in real time (container load, CPU/RAM, processes) over WebSocket.
+What it is: connect a local project via CLI, see file-tree UI + live service state (container load, CPU/RAM, processes via WebSocket).
 
-- Microservice backend on FastAPI (asyncio): auth, gateway, project services — 48 endpoints
-- PostgreSQL (8 tables) + Alembic migrations, async SQLAlchemy 2.0
-- JWT auth with refresh-token rotation in Redis, email login, OAuth2 (GitHub, Yandex)
-- Rate limiting (slowapi + Redis), paid subscriptions via YooKassa (webhooks, payment idempotency)
-- 171 pytest tests (81–93% coverage per service), GitHub Actions CI, Docker Compose deploy in Yandex Cloud with HTTPS
+> Core repo is private (full workspace). Public showcase has architecture, docs and key backend slices.
 
-> Code lives in a private repo — I'll happily give access on request. The product itself is live: **[bildock.ru](https://bildock.ru)**.
+Backend (mine):
+- Modular FastAPI (asyncio, async/await): auth, gateway, project — 48 endpoints, 8 tables PostgreSQL, 10 migrations Alembic
+- Auth: JWT with refresh rotation in Redis, login + OAuth2 (GitHub, Yandex), rate limiting (slowapi + Redis)
+- Payments: YooKassa subscriptions + webhook with idempotency (transactions, unique constraints, event log)
+- Quality: 171 pytest (unit + integration, ~85%+ on auth/payments/webhooks), GitHub Actions 60-75s
+- Ops: Docker Compose, HTTPS, gateway, logging. Local load check: p95 <10ms
 
-## Stack
+## 🛠 Stack
 
-Python 3.13+ · FastAPI · asyncio · SQLAlchemy 2.0 (async) · Alembic · Pydantic v2 · PostgreSQL · asyncpg · Redis · Celery · RabbitMQ · JWT / OAuth2 · REST · WebSocket · Pytest · Docker · Docker Compose · Git · GitHub Actions · Yandex Cloud · uv
+Python 3.13+ · FastAPI · SQLAlchemy 2.0 · Alembic · Pydantic v2 · PostgreSQL · Redis · Celery · RabbitMQ · JWT / OAuth2 · REST · pytest · Docker / Compose · Git · GitHub Actions · HTTPX · Django / DRF · Linux
 
-Learning: event-driven architecture (Kafka), deeper CI/CD, Linux.
+## 📌 Other backends
 
-## Other projects
+- **[Tender Status Tracker](https://github.com/d3arkw/tender-status-tracker)** — FastAPI + PG + Redis, lifecycle draft/active/won/lost with history. Redis cache RPS 290→770, index on 100k rows, 11 tests, CI.
+- **[Freelance CRM API](https://github.com/d3arkw/freelance-crm-api)** — Django 6.1 + DRF: clients/orders/payments, SimpleJWT + own-data permissions, django-filter, ORM analytics, Swagger, pytest-django, PG + Redis.
+- **[FitnessTracker](https://github.com/d3arkw/FitnessTracker)** — FastAPI REST + JWT, SQL analytics, tests, CI.
 
-📋 **[Tender Status Tracker](https://github.com/d3arkw/tender-status-tracker)** — tender status lifecycle (draft → active → won/lost) with full change history. Redis caching raised RPS 290 → 770, an index on tender_id cut a 100k-row query from 3.0 ms to 0.014 ms. 11 tests, 88% coverage, CI.
+## 📫 Contacts
 
-🏋️ **[Fitness Tracker API](https://github.com/d3arkw/FitnessTracker)** — workouts REST API: JWT + bcrypt, 14 endpoints, progress stats via SQL (GROUP BY + JOIN), 18 tests on a live DB, CI.
+- Telegram: [@d3arkw](https://t.me/d3arkw)
+- Mail: [d3arkw@icloud.com](mailto:d3arkw@icloud.com)
+- HH resume: Python Backend (FastAPI / PostgreSQL)
 
-🛒 **[Microservice Market Study](https://github.com/d3arkw/market-microservise-study)** — three services (catalog, order, payment), database per service, HTTP + message broker.
-
-More: [Password Manager](https://github.com/d3arkw/password_manager) · [Habit Tracker](https://github.com/d3arkw/habits-tracker) · [Finance CLI](https://github.com/d3arkw/finance-tracker-cli) · [Simple Terminal](https://github.com/d3arkw/simple-terminal)
-
-## Contact
-
-- Telegram: [@d3arkw](https://t.me/d3arkw) — fastest way to reach me
-- Email: [d3arkw@icloud.com](mailto:d3arkw@icloud.com)
-
-Open to Junior+ / Middle Python Backend positions (remote).
+Open to Junior+ / Middle, remote. Ready for test task.
